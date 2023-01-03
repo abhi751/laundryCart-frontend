@@ -371,7 +371,7 @@ const CatelogRow = () => {
       </table>
       {rowData ? (
         <div style={{ float: "right", marginTop: "1rem" }}>
-          <button className="btn-vt">Cancel</button>
+          <button className="btn-vt" onClick={()=>styles={visibility:"hidden"}} >Cancel Order</button>
           <button
             className="btn-vt-fill"
             onClick={() => handleSubmit("proceed")}
